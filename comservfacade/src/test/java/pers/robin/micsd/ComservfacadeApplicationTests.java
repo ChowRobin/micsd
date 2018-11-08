@@ -1,4 +1,4 @@
-package pers.robin.micsd.comservfacade;
+package pers.robin.micsd;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

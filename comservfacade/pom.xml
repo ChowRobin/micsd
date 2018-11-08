@@ -6,16 +6,26 @@
     <groupId>pers.robin.micsd</groupId>
     <artifactId>comservfacade</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
     <packaging>jar</packaging>
 
     <name>comservfacade</name>
     <description>Common Service Facade of micsd</description>
 
     <parent>
-        <groupId>pers.robin</groupId>
-        <artifactId>micsd</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.0.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
 </project>
